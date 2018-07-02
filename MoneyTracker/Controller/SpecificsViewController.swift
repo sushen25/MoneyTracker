@@ -14,6 +14,7 @@ class SpecificsViewController: UIViewController {
     
     @IBOutlet var accountLables: [UILabel]!
     @IBOutlet var moneyLables: [UILabel]!
+    var moneyInAccounts : [Int] = [100, 300, 200, 1000]
     
     
     
@@ -22,7 +23,7 @@ class SpecificsViewController: UIViewController {
     @IBOutlet var progressBarWidthArray: [NSLayoutConstraint]!
     
     
-    
+    var senderAcc : Int = 0 // var used to tell 'prepare for segue' which acc to process
     
     
     override func viewDidLoad() {
@@ -37,16 +38,11 @@ class SpecificsViewController: UIViewController {
         accountLables[3].text = "ACC"
         
         
-        
         for item in 0...progressBars.count {
             progressBarWidthArray[item].constant = 0
-            //setWidthOfBar(sectionNo: item, setWidth: 0)
+            setMoneyLable(sectionNo: item + 1, amount: moneyInAccounts[item])
+            
         }
-        
-       
-        
-        
-        //self.view.layoutIfNeeded()
         
     }
 
@@ -58,6 +54,8 @@ class SpecificsViewController: UIViewController {
     
     @IBAction func accountButtonPressed(_ sender: UIButton) {
         
+        senderAcc = sender.tag
+        // prepare for segue
         performSegue(withIdentifier: "goToChangeScreen", sender: self)
         
         
@@ -68,8 +66,11 @@ class SpecificsViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if(segue.identifier == "goToChangeScreen") {
             //set up preperation here
+            let changeViewController = segue.destination as! ChangeViewController
             
-            let changeScreenViewController = segue.destination //...
+            changeViewController.accName = accountLables[senderAcc - 1].text!
+            changeViewController.accNumber = senderAcc
+            changeViewController.moneyInAccount = moneyInAccounts[senderAcc - 1]
             
             
         }
@@ -77,6 +78,7 @@ class SpecificsViewController: UIViewController {
     
     
     
+    // MARK: - mutators to change ui elements
     
     // set width of the progress bar for a particular section
     func setWidthOfBar(sectionNo : Int, setWidth : Double) {

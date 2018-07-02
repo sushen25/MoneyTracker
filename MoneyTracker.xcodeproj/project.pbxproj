@@ -14,6 +14,7 @@
 		DD46A32F20E8D56B002928B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD46A32E20E8D56B002928B3 /* Assets.xcassets */; };
 		DD46A33220E8D56B002928B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD46A33020E8D56B002928B3 /* LaunchScreen.storyboard */; };
 		DD742A1220E8DA2D004B7BA0 /* SpecificsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD742A1120E8DA2D004B7BA0 /* SpecificsViewController.swift */; };
+		DD742A1420E9EEDE004B7BA0 /* ChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD742A1320E9EEDE004B7BA0 /* ChangeViewController.swift */; };
 		EADC1DD7C55002F95A1326DB /* Pods_MoneyTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 556133D4113D7F4E200BECC0 /* Pods_MoneyTracker.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		DD46A33120E8D56B002928B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD46A33320E8D56B002928B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD742A1120E8DA2D004B7BA0 /* SpecificsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificsViewController.swift; sourceTree = "<group>"; };
+		DD742A1320E9EEDE004B7BA0 /* ChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeViewController.swift; sourceTree = "<group>"; };
 		E29D88A3F4754C7ED7980C8F /* Pods-MoneyTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyTracker/Pods-MoneyTracker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 				DD46A32620E8D569002928B3 /* ViewController.swift */,
 				DD46A32420E8D569002928B3 /* AppDelegate.swift */,
 				DD742A1120E8DA2D004B7BA0 /* SpecificsViewController.swift */,
+				DD742A1320E9EEDE004B7BA0 /* ChangeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD742A1420E9EEDE004B7BA0 /* ChangeViewController.swift in Sources */,
 				DD742A1220E8DA2D004B7BA0 /* SpecificsViewController.swift in Sources */,
 				DD46A32720E8D569002928B3 /* ViewController.swift in Sources */,
 				DD46A32D20E8D569002928B3 /* MoneyTracker.xcdatamodeld in Sources */,
