@@ -52,7 +52,7 @@ class SpecificsViewController: UIViewController, ChangeViewControllerDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    
+    //MARK: - buttons
     @IBAction func accountButtonPressed(_ sender: UIButton) {
         
         senderAcc = sender.tag
@@ -61,6 +61,16 @@ class SpecificsViewController: UIViewController, ChangeViewControllerDelegate {
         
         
     }
+    
+    @IBAction func backPressed(_ sender: Any) {
+        self.dismiss(animated: true) {
+            
+        }
+    }
+    
+    
+    
+    
     
     
     //MARK: - preparing for segues
