@@ -8,7 +8,14 @@
 
 import UIKit
 
+protocol ChangeViewControllerDelegate {
+    func accountChanged(accountNumber : Int, newMoneyAmount : Int)
+}
+
 class ChangeViewController: UIViewController {
+    
+    //Delegate
+    var delegate : ChangeViewControllerDelegate?
     
     //UI Elements
     @IBOutlet weak var accountNameLable: UILabel!
@@ -62,8 +69,6 @@ class ChangeViewController: UIViewController {
             arrowChangeAmount = 0
         }
         
-        
-        
         // color of change
         if(arrowChangeAmount > 0) {
             // positive
@@ -86,10 +91,24 @@ class ChangeViewController: UIViewController {
     }
     
     
+    
+    
     @IBAction func changeAmount(_ sender: UIButton) {
         moneyEnterAlert()
         
     }
+    
+    @IBAction func canclePressed(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func donePressed(_ sender: Any) {
+        self.dismiss(animated: true) {
+            self.delegate?.accountChanged(accountNumber: self.accNumber, newMoneyAmount: self.moneyInAccount)
+        }
+    }
+    
+    
     
     //MARK:- functional mathods
     func moneyEnterAlert() {

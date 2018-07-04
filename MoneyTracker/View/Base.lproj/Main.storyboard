@@ -88,10 +88,10 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L5w-9Q-rDe">
-                                                        <rect key="frame" x="45" y="0.0" width="254" height="50"/>
+                                                        <rect key="frame" x="45" y="0.0" width="265" height="50"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Njg-oK-vJC" userLabel="PercentBackground">
-                                                                <rect key="frame" x="5" y="13" width="244" height="25"/>
+                                                                <rect key="frame" x="5" y="13" width="255" height="25"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DUs-ew-tNL" userLabel="PercentBar">
                                                                         <rect key="frame" x="0.0" y="0.0" width="114" height="25"/>
@@ -118,7 +118,7 @@
                                                         </constraints>
                                                     </view>
                                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W2S-Jv-FQG">
-                                                        <rect key="frame" x="309" y="0.0" width="46" height="50"/>
+                                                        <rect key="frame" x="320" y="0.0" width="35" height="50"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
                                                             <action selector="accountButtonPressed:" destination="ubQ-XJ-wX1" eventType="touchUpInside" id="jTg-of-UCE"/>
@@ -152,10 +152,10 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eWo-do-iEJ">
-                                                        <rect key="frame" x="45" y="0.0" width="254" height="50"/>
+                                                        <rect key="frame" x="45" y="0.0" width="265" height="50"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5IP-Qp-NXT">
-                                                                <rect key="frame" x="5" y="13" width="244" height="25"/>
+                                                                <rect key="frame" x="5" y="13" width="255" height="25"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dfx-12-hKp" userLabel="PercentBar">
                                                                         <rect key="frame" x="0.0" y="0.0" width="68" height="25"/>
@@ -182,7 +182,7 @@
                                                         </constraints>
                                                     </view>
                                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57Y-Ul-xBn">
-                                                        <rect key="frame" x="309" y="0.0" width="46" height="50"/>
+                                                        <rect key="frame" x="320" y="0.0" width="35" height="50"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
                                                             <action selector="accountButtonPressed:" destination="ubQ-XJ-wX1" eventType="touchUpInside" id="MPI-MA-DgU"/>
@@ -215,10 +215,10 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ujx-uc-AQT">
-                                                        <rect key="frame" x="45" y="0.0" width="254" height="50"/>
+                                                        <rect key="frame" x="45" y="0.0" width="265" height="50"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l1Z-o8-SWP">
-                                                                <rect key="frame" x="5" y="13" width="244" height="25"/>
+                                                                <rect key="frame" x="5" y="13" width="255" height="25"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FMc-4o-qlj" userLabel="PercentBar">
                                                                         <rect key="frame" x="0.0" y="0.0" width="68" height="25"/>
@@ -245,7 +245,7 @@
                                                         </constraints>
                                                     </view>
                                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7Y-9w-Q3J">
-                                                        <rect key="frame" x="309" y="0.0" width="46" height="50"/>
+                                                        <rect key="frame" x="320" y="0.0" width="35" height="50"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
                                                             <action selector="accountButtonPressed:" destination="ubQ-XJ-wX1" eventType="touchUpInside" id="Krq-sg-yT3"/>
@@ -279,10 +279,10 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V56-cE-Ice">
-                                                        <rect key="frame" x="45" y="0.0" width="254" height="50"/>
+                                                        <rect key="frame" x="45" y="0.0" width="265" height="50"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="byA-O4-as3">
-                                                                <rect key="frame" x="5" y="13" width="244" height="25"/>
+                                                                <rect key="frame" x="5" y="13" width="255" height="25"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fr0-Wf-vqG" userLabel="PercentBar">
                                                                         <rect key="frame" x="0.0" y="0.0" width="183" height="25"/>
@@ -309,7 +309,7 @@
                                                         </constraints>
                                                     </view>
                                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsr-8K-mSG">
-                                                        <rect key="frame" x="309" y="0.0" width="46" height="50"/>
+                                                        <rect key="frame" x="320" y="0.0" width="35" height="50"/>
                                                         <state key="normal" title="Button"/>
                                                         <connections>
                                                             <action selector="accountButtonPressed:" destination="ubQ-XJ-wX1" eventType="touchUpInside" id="Hwy-5U-Eik"/>
@@ -344,13 +344,32 @@
                                     <constraint firstAttribute="height" constant="90" id="ha0-Y9-KT8"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="elW-Fz-MB1">
+                                <rect key="frame" x="10" y="44" width="61" height="30"/>
+                                <state key="normal" title="&lt; Cancle"/>
+                                <connections>
+                                    <action selector="canclePressed:" destination="lCJ-kc-Zak" eventType="touchUpInside" id="eKB-kU-ukv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YAi-eg-aIE">
+                                <rect key="frame" x="327" y="44" width="38" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <action selector="donePressed:" destination="lCJ-kc-Zak" eventType="touchUpInside" id="dF7-W8-rNe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.54117647058823526" green="0.84313725490196079" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="elW-Fz-MB1" firstAttribute="leading" secondItem="ASd-zw-GZb" secondAttribute="leading" constant="10" id="AaE-8l-QXg"/>
                             <constraint firstItem="kOa-nH-CMD" firstAttribute="bottom" secondItem="ASd-zw-GZb" secondAttribute="bottom" id="Rfc-kG-whH"/>
                             <constraint firstItem="kOa-nH-CMD" firstAttribute="leading" secondItem="ASd-zw-GZb" secondAttribute="leading" id="WEI-RN-PBy"/>
                             <constraint firstItem="kOa-nH-CMD" firstAttribute="top" secondItem="PFX-Ff-d78" secondAttribute="bottom" constant="50" id="hTK-sB-E46"/>
                             <constraint firstItem="PFX-Ff-d78" firstAttribute="trailing" secondItem="ASd-zw-GZb" secondAttribute="trailing" constant="-10" id="iR4-90-wEB"/>
+                            <constraint firstItem="ASd-zw-GZb" firstAttribute="trailing" secondItem="YAi-eg-aIE" secondAttribute="trailing" constant="10" id="oJ3-2o-V0E"/>
+                            <constraint firstItem="elW-Fz-MB1" firstAttribute="top" secondItem="ASd-zw-GZb" secondAttribute="top" id="p4C-8J-von"/>
+                            <constraint firstItem="YAi-eg-aIE" firstAttribute="top" secondItem="ASd-zw-GZb" secondAttribute="top" id="qxi-GB-HNu"/>
                             <constraint firstItem="PFX-Ff-d78" firstAttribute="leading" secondItem="ASd-zw-GZb" secondAttribute="leading" constant="10" id="uAu-kU-uQS"/>
                             <constraint firstItem="kOa-nH-CMD" firstAttribute="trailing" secondItem="ASd-zw-GZb" secondAttribute="trailing" id="wAI-oG-bdw"/>
                             <constraint firstItem="PFX-Ff-d78" firstAttribute="top" secondItem="ASd-zw-GZb" secondAttribute="top" constant="50" id="zj2-w0-b6H"/>
@@ -401,10 +420,30 @@
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fd8-Og-Snp">
+                                                <rect key="frame" x="10" y="8" width="61" height="30"/>
+                                                <state key="normal" title="&lt; Cancle"/>
+                                                <connections>
+                                                    <action selector="canclePressed:" destination="lCJ-kc-Zak" eventType="touchUpInside" id="YMA-9a-t2M"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNb-TM-8VA">
+                                                <rect key="frame" x="327" y="8" width="38" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="Done"/>
+                                                <connections>
+                                                    <action selector="donePressed:" destination="lCJ-kc-Zak" eventType="touchUpInside" id="rPa-ut-oVQ"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <constraints>
+                                            <constraint firstItem="NNb-TM-8VA" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fd8-Og-Snp" secondAttribute="trailing" constant="110" id="8e4-Ua-5TN"/>
+                                            <constraint firstAttribute="trailing" secondItem="NNb-TM-8VA" secondAttribute="trailing" constant="10" id="KUK-Q6-3Sw"/>
                                             <constraint firstItem="0Nc-bx-8cn" firstAttribute="centerY" secondItem="6dz-5K-vJV" secondAttribute="centerY" id="Up7-Wb-QbU"/>
+                                            <constraint firstItem="NNb-TM-8VA" firstAttribute="top" secondItem="6dz-5K-vJV" secondAttribute="top" constant="8" id="jKn-RX-gdU"/>
                                             <constraint firstItem="0Nc-bx-8cn" firstAttribute="centerX" secondItem="6dz-5K-vJV" secondAttribute="centerX" id="jUl-X2-rbs"/>
+                                            <constraint firstItem="fd8-Og-Snp" firstAttribute="top" secondItem="6dz-5K-vJV" secondAttribute="top" constant="8" id="kGv-pf-HnI"/>
+                                            <constraint firstItem="fd8-Og-Snp" firstAttribute="leading" secondItem="6dz-5K-vJV" secondAttribute="leading" constant="10" id="tQD-QA-gwd"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nzz-pu-eGJ" userLabel="Mid">
@@ -414,7 +453,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="75" height="244.66666666666666"/>
                                                 <subviews>
                                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omd-Pa-C1B">
-                                                        <rect key="frame" x="0.0" y="92.333333333333314" width="75" height="61"/>
+                                                        <rect key="frame" x="0.0" y="92" width="75" height="61.666666666666657"/>
                                                         <state key="normal" title="OK"/>
                                                         <connections>
                                                             <action selector="arrowPressed:" destination="lCJ-kc-Zak" eventType="touchUpInside" id="Ijf-nn-kpY"/>
@@ -495,7 +534,7 @@
                                         <rect key="frame" x="0.0" y="489.33333333333343" width="375" height="244.66666666666669"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qdc-1P-JGo">
-                                                <rect key="frame" x="125" y="81.666666666666629" width="124" height="80.666666666666686"/>
+                                                <rect key="frame" x="125" y="81.333333333333258" width="124" height="81"/>
                                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <state key="normal" title="Enter Amount">

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SpecificsViewController: UIViewController {
+class SpecificsViewController: UIViewController, ChangeViewControllerDelegate {
     
     // MARK: - user interface variables
     
@@ -41,6 +41,7 @@ class SpecificsViewController: UIViewController {
         for item in 0...progressBars.count {
             progressBarWidthArray[item].constant = 0
             setMoneyLable(sectionNo: item + 1, amount: moneyInAccounts[item])
+            setProportionalWidthOfBar(account: item + 1, amountOfAccount: moneyInAccounts[item])
             
         }
         
@@ -68,6 +69,8 @@ class SpecificsViewController: UIViewController {
             //set up preperation here
             let changeViewController = segue.destination as! ChangeViewController
             
+            changeViewController.delegate = self
+            
             changeViewController.accName = accountLables[senderAcc - 1].text!
             changeViewController.accNumber = senderAcc
             changeViewController.moneyInAccount = moneyInAccounts[senderAcc - 1]
@@ -76,6 +79,19 @@ class SpecificsViewController: UIViewController {
         }
     }
     
+    func accountChanged(accountNumber: Int, newMoneyAmount: Int) {
+        
+        // resetting the array
+        moneyInAccounts[accountNumber - 1] = newMoneyAmount
+        
+        for item in 0...moneyInAccounts.count - 1 {
+            setProportionalWidthOfBar(account: item + 1, amountOfAccount: moneyInAccounts[item])
+        }
+        
+        setMoneyLable(sectionNo: accountNumber, amount: newMoneyAmount)
+        
+        
+    }
     
     
     // MARK: - mutators to change ui elements
@@ -89,6 +105,7 @@ class SpecificsViewController: UIViewController {
         
     }
     
+    
     func setMoneyLable(sectionNo : Int, amount : Int) {
         if(sectionNo >= 1 && sectionNo <= 4) {
         let moneyLable = moneyLables[sectionNo - 1]
@@ -98,6 +115,29 @@ class SpecificsViewController: UIViewController {
         }
         
     }
+    
+    func setProportionalWidthOfBar(account : Int, amountOfAccount : Int) {
+        let totalMoney : Int = sumOfArray(array: moneyInAccounts)
+        let widthOfTotalBar = Double(progressBarBackground.frame.width)
+        
+        let percentOfProgressBar : Double = Double(amountOfAccount)/Double(totalMoney)
+        
+        setWidthOfBar(sectionNo: account, setWidth: percentOfProgressBar * widthOfTotalBar)
+        
+    }
+    
+    
+    func sumOfArray(array : [Int]) -> Int {
+        var sum = 0
+        
+        for item in array {
+            sum += item
+        }
+        
+        return sum
+        
+    }
+
  
 
     /*
